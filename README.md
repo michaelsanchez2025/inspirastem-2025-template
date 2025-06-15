@@ -7,7 +7,7 @@
 | **Lugar** | *[Completar]* |
 | **Fechas** | *[Completar]* |
 | **Hora** | *[Completar]* |
-| **Instructor** | **Erick Urquilla** — eurquill@vols.utk.edu - sites.google.com/view/erickurquilla |
+| **Instructor** | **Erick Urquilla** — eurquill@vols.utk.edu • [sitio web](https://sites.google.com/view/erickurquilla) |
 
 ---
 
@@ -30,7 +30,7 @@ Además de la aplicación directa en ingeniería, los métodos se conectarán co
 | Requisito | Nivel recomendado |
 |-----------|-------------------|
 | Álgebra, geometría, álgebra lineal | Básico–intermedio |
-| Cálculo & EDP (quinto semestre) | Intermedio |
+| Cálculo y EDP (quinto semestre) | Intermedio |
 | Conceptos básicos de fluidos | Deseable |
 | Python (variables, funciones, *NumPy*, *Matplotlib*) | Sólido |
 
@@ -47,13 +47,13 @@ Además de la aplicación directa en ingeniería, los métodos se conectarán co
 
 ## Plan diario y syllabus detallado  
 
-| Día | Objetivos clave | Contenidos & actividades | Software |
+| Día | Objetivos clave | Contenidos y actividades | Software |
 |-----|-----------------|--------------------------|----------|
-| **1** | • Rol del CFD en ciencia e ingeniería<br>• Generación de cuadrículas<br>• Condiciones iniciales | 1. Presentación del curso <br>2. Proyecto de grupo: *“Agua en un guacal 1-D”*<br>3. **Ejercicio 1** — función Python para generar cuadrículas<br>4. **Ejercicio 2** — codificar condiciones iniciales | Jupyter, NumPy, Matplotlib, IPython, `time` |
-| **2** | • Bases de Lagrange y aproximación funcional<br>• Forma débil 1-D<br>• Integración numérica (Gauss) | 1. Galerkin continuo vs discontinuo<br>2. **Ejercicio 3** — polinomio de Lagrange evaluado en `x`<br>3. Forma débil de las ecuaciones<br>4. **Ejercicio 4** — matriz de masa por cuadratura de Gauss | Jupyter, NumPy, Matplotlib |
+| **1** | • Rol del CFD en ciencia e ingeniería<br>• Generación de cuadrículas<br>• Condiciones iniciales | 1. Presentación del curso<br>2. Proyecto de grupo: *«Agua en un guacal 1-D»*<br>3. **Ejercicio 1** — función Python para generar cuadrículas<br>4. **Ejercicio 2** — codificar condiciones iniciales | Jupyter, NumPy, Matplotlib, IPython |
+| **2** | • Bases de Lagrange y aproximación funcional<br>• Forma débil 1-D<br>• Integración numérica (Gauss) | 1. Galerkin continuo vs discontinuo<br>2. **Ejercicio 3** — polinomio de Lagrange evaluado en *x*<br>3. Forma débil de las ecuaciones<br>4. **Ejercicio 4** — matriz de masa por cuadratura de Gauss | Jupyter, NumPy, Matplotlib |
 | **3** | • Solución temporal con RK4 / Newton<br>• Forma débil completa<br>• Cierre del proyecto | 1. Forma débil (parte II)<br>2. Método de Newton; RK4<br>3. **Ejercicio 5** — implementar Euler o RK4 para la evolución temporal | Jupyter, NumPy, Matplotlib |
 
-> **Nota:** Cada día combina micro-exposiciones (~20 min) + bloques de codificación supervisada (~90 min) + debrief (~30 min).
+> **Nota:** Cada día combina micro-exposiciones (~20 min), bloques de codificación supervisada (~90 min) y *debrief* (~30 min).
 
 ---
 
@@ -69,15 +69,18 @@ Además de la aplicación directa en ingeniería, los métodos se conectarán co
 
 ---
 
-## Instalación rápida
+## Material de estudio pre-conferencia  
 
-```bash
-git clone https://github.com/InspiraSTEM/taller-cfd-2025.git
-cd taller-cfd-2025
+| Recurso | Tipo | Enlace |
+|---------|------|--------|
+| **CFD Python** (Lorena Barba) — Lecciones 1-3 | Videos + notebooks | <https://github.com/barbagroup/CFDPython> |
+| Capítulos 1–3 de **«An Introduction to Computational Fluid Dynamics»** (Versteeg & Malalasekera) | PDF/Libro | *[link institucional]* |
+| Tutorial: **NumPy para científicos** | Notebook | `docs/prework_numpy.ipynb` |
+| Cuaderno interactivo: **Método de Euler y RK4** | Notebook | `docs/prework_rk.ipynb` |
+| Artículo corto: **Discontinuous Galerkin Overview** | PDF | `docs/DG_overview.pdf` |
 
-python -m venv .venv
-source .venv/bin/activate        # Linux/Mac
-# .venv\Scripts\activate.bat     # Windows
+> **Sugerencia:** Revisa al menos los videos de CFD Python y ejecuta el notebook de NumPy antes del Día 1 para aprovechar al máximo el taller.
 
-pip install -r requirements.txt
-jupyter lab notebooks/
+---
+
+¡Nos vemos pronto en InspiraSTEM 2025!
