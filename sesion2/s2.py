@@ -1,1 +1,1 @@
-import numpy as np
+# solo creando el directorio de la sesion2
