@@ -7,7 +7,7 @@
 | **Lugar** | *[Completar]* |
 | **Fechas** | *[Completar]* |
 | **Hora** | *[Completar]* |
-| **Instructor** | **Erick Urquilla** — eurquill@vols.utk.edu |
+| **Instructor** | **Erick Urquilla** — eurquill@vols.utk.edu - sites.google.com/view/erickurquilla |
 
 ---
 
